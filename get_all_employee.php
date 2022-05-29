@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include 'db/config.php';
 $con = dbConnect();
 $response = array();
 
