@@ -30,7 +30,7 @@ if(isset($_GET['id'])){
 // }
 }
 echo json_encode($response);
-header('location:view_employee.php');
+header('location:index.php');
 mysqli_close($con);
 
   ?>

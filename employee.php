@@ -23,7 +23,7 @@
 
 	<form action="employee_entry.php"  method="post" enctype="multipart/form-data">
 		<label for="exampleFormControlInput1" class="form-label">Employee Name</label>
-  <input type="text" class="form-control" name="name" >
+  <input type="text" class="form-control" name="name">
   <br>
 
 		<label for="exampleFormControlInput1" class="form-label">Phone Number</label>
@@ -51,7 +51,13 @@
   <input type="file" class="form-control" name="image" placeholder="">
   <br><br>
 
-  <button class="btn btn-success text-center" type="submit" name="submit"> Submit</button>
+  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  	<button class="btn btn-danger me-md-2" type="button">Clear</button>
+  	  <button class="btn btn-primary action='employee_entry.php' text-center" type="submit" name="submit">Submit</button>
+
+
+  </div>
+
 
   
 	</form>
